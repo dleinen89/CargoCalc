@@ -152,7 +152,7 @@ const CargoCalculator: React.FC = () => {
             className="h-[60px] w-[150px] object-contain"
           />
         </div>
-        <h2 className="text-2xl font-bold text-center text-[#042d62] mb-6">Cargo Area & Volume Calculator</h2>
+        <h2 className="text-2xl font-bold text-center text-[#042d62] mb-6">Cargo Calculator</h2>
         <div className="space-y-6">
           {renderInputGroup('Length', 'length', true, ['mm', 'cm', 'm'])}
           {renderInputGroup('Width', 'width', true, ['mm', 'cm', 'm'])}
